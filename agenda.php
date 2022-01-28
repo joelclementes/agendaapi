@@ -8,15 +8,21 @@ class agenda{
     const PWD = "";
     const DB = "agenda";
     
-    public function agenda_select(){
+    public function agenda_select_all(){
         $ProcesosBD = new ProcesosBD(self::SERVER,self::USER,self::PWD,self::DB);
-        $consulta = "SELECT * FROM agenda ORDER BY nombreUsuario";
+        $consulta = "SELECT * FROM agenda ORDER BY nombre";
         return $ProcesosBD->tabla($consulta);
     }
     
+    public function agenda_select($id){
+        $ProcesosBD = new ProcesosBD(self::SERVER,self::USER,self::PWD,self::DB);
+        $consulta = "SELECT * FROM agenda WHERE id=$id";
+        return $ProcesosBD->tabla($consulta);
+    }
+
     public function agenda_insert($nombre,$correo){
         $ProcesosBD = new ProcesosBD(self::SERVER,self::USER,self::PWD,self::DB);
-        $insert = "INSERT INTO agenda values ('$nombre','$correo')";
+        $insert = "INSERT INTO agenda (nombre,correo) values ('$nombre','$correo')";
         return $ProcesosBD->ejecutaSentencia($insert);
     }
 
@@ -29,7 +35,7 @@ class agenda{
     public function agenda_delete($id){
         $ProcesosBD = new ProcesosBD(self::SERVER,self::USER,self::PWD,self::DB);
         $delete = "DELETE FROM agenda WHERE id = $id";
-        return $ProcesosBD->tabla($delete);
+        return $ProcesosBD->ejecutaSentencia($delete);
     }
 
 }
