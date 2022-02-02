@@ -15,7 +15,7 @@ Para ello puedes ir al botón verde que está más arriba, que dice Code.
 Copia el código para clonar el repositorio que está en el mismo botón Code.
 Abre la consola de comandos situándote en la carpeta donde se descargará el proyecto y escribe:
 ```
-git clone (pega el código en el portapapeles con CTRL+V ó SHIFT + CTRL + INSERT si usas el git Bash)
+git clone https://github.com/joelclementes/agendaapibackend.git
 ```
 
 
