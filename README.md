@@ -3,8 +3,8 @@ CRUD (Create, Read, Update, Delete) es un acrónimo para las maneras en las que 
 
 ## Pre-requisitos 📋
 Deberás tener instalado:
-XAMPP o cualquier otro administrador de PHP + MYSQL
-GIT (_Opcional_)
+* XAMPP o cualquier otro administrador de PHP + MYSQL
+* GIT (_Opcional_)
 
 ## Primero 
 
