@@ -8,4 +8,4 @@ Para ello puedes ir al botón verde que está más arriba, que dice Code.
 ## Segundo
 En phpmyadmin crea una BD con el nombre de agenda y después importa el archivo agenda.sql
 ## Tercero
-Ve al siguiente repositorio y sigue las instrucciones ahí...
+Ve al siguiente repositorio y sigue las instrucciones ahí... https://github.com/joelclementes/agendaapibackend.git
