@@ -3,11 +3,14 @@ include_once 'procesosBD.php';
 
 class agenda{
 
+    // Especificamos los datos para la conexión
     const SERVER = "localhost";
     const USER = "root";
     const PWD = "";
     const DB = "agenda";
     
+
+    // Nótese que debemos nombrar los métodos lo más intuitivo posible
     public function agenda_select_all(){
         $ProcesosBD = new ProcesosBD(self::SERVER,self::USER,self::PWD,self::DB);
         $consulta = "SELECT * FROM agenda ORDER BY nombre";
