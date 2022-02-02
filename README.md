@@ -21,6 +21,6 @@ Para ello puedes ir al botón verde que está más arriba, que dice Code.
 ![imagen para mostrar el botón](https://cpb-us-e1.wpmucdn.com/sites.northwestern.edu/dist/b/3044/files/2021/05/github.png)
 
 ## Segundo
-En phpmyadmin crea una BD con el nombre de agenda y después importa el archivo agenda.sql
+En phpmyadmin crea una BD con el nombre de _agenda_ y después importa el archivo agenda.sql
 ## Tercero
 Ve al siguiente repositorio y sigue las instrucciones ahí... https://github.com/joelclementes/agendaapifrontend.git
